@@ -11,6 +11,6 @@ class Solution:
             count1[s[i]] +  = count1[s[i]]
             count2[t[i]] + =  count2[t[i]]
         for j in count2 : 
-            if count1[j] != count2[j]
-            return False 
+            if count1[j] != count2[j]:
+                return False 
         return True
