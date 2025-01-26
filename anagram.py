@@ -11,7 +11,7 @@ class Solution:
             countmapS[s[i]] = 1 + countmapS.get(s[i],0)
             countmapT[t[i]] = 1 + countmapT.get(t[i], 0)
         for j in countmapS : 
-            if countmapS[j] != countmapT[j]:
+            if countmapS[j] != countmapT[j] :
                 return False 
         return True
         
