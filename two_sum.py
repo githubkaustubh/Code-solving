@@ -4,9 +4,6 @@
 #if the remaining exists then return the indices of the remaining and current number
 #otherwise store the current number and its index in the dictionary
 
-
-
-
 class Solution:
     def twoSum(self, nums, target):
         map = {}
